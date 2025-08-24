@@ -30,7 +30,7 @@ This Porting Kit installation provides a working base game, however the in-game 
 The original game would play the in-game music tracks from the CD-ROM drive. The UI Additions hack allows music playback from files instead. The audio tracks can be extracted from a bin/cue image of the original disk:
 - Use [Homebrew package manager](https://formulae.brew.sh/formula/bchunk) to install bchunk: `brew install bchunk`
 - `bchunk -w ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.bin ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.cue track`
-- This will result in track01.iso (the CD-ROM data track, for the files), and audio track02 to track12 extracted as correctly named WAV files.
+- This will result in `track01.iso` the CD-ROM data track, for the files, and WAV files `track02` to `track12` extracted with the required names.
 - In Porting Kit, navigate to Games > Installed.
 - Hover over Custom Port named Civilization II, click on the gear wheel, Show in Finder.
 - Right-click, Show package contents.
@@ -42,5 +42,6 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Right click on the track01.iso you created in the previous section, and select Open with > DiskImageMounter.
 - From that mounted volume, open the Civ2 folder.
 - Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/Contents/drive_c/Civilization 2` folder.
+- Eject the ISO image. It will prevent the in-game audio from working if it is mounted.
 - Download Intel Indeo 5 Video codec [here](https://download.civforum.de/civ2/iv5setup.exe). There are various other installers for this on the Web, but many seem to have 16-bit setup loaders which will not work here, so use this one.
 - 
