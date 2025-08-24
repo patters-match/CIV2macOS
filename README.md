@@ -41,7 +41,7 @@ The original game would play the in-game music tracks from the CD-ROM drive. The
 The next challenge is that the videos were not included in the bestoldgames.net download, and they are encoded in a very old Indeo 4 video codec. It should be trivial to add this codec via a winetrick script, but unfortunately this is outdated in the chosen engine and does not work.
 - Right click on the track01.iso you created in the previous section, and select Open with > DiskImageMounter.
 - From that mounted volume, open the Civ2 folder.
-- Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/Contents/drive_c/Civilization 2` folder.
+- Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/drive_c/Civilization 2` folder.
 - Eject the ISO image. It will prevent the in-game audio from working if it is mounted.
 - Download Intel Indeo 5 Video codec [here](https://download.civforum.de/civ2/iv5setup.exe). There are various other installers for this on the Web, but many seem to have 16-bit setup loaders which will not work here, so use this one.
 - 
