@@ -2,7 +2,7 @@
 
 ![CIV2 macOS gameplay](images/civ2.png)
 
-Civilization II was initially released in 1996 for Windows 3.1 and Windows 95, but it relied on the Win32s subsystem. The Multiplayer Gold Edition from 1998 is a true Win32 application, and thus can run using Wine. The objectives of this guide then:
+Civilization II was initially released in 1996 for Windows 3.1 and Windows 95, but it targeted the WinG/Win32s APIs. The Multiplayer Gold Edition from 1998 is a true Win32 application, and thus can run using Wine. The objectives of this guide then:
 - Civilization II Multiplayer Gold Edition
 - Bug fixes and quality of life enhancements
 - In-game music playback
