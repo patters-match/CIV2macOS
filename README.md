@@ -34,7 +34,7 @@ The original game would play the in-game music tracks from the CD-ROM drive. The
 - In Porting Kit, navigate to Games > Installed.
 - Hover over Custom Port named Civilization II, click on the gear wheel, Show in Finder.
 - Right-click, Show package contents.
-- Create the folder `Contents/Contents/drive_c/Civilization 2/MUSIC`
+- Create the folder `Contents/drive_c/Civilization 2/MUSIC`
 - Copy the audio tracks into that folder.
 
 ## Videos
@@ -44,4 +44,9 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/drive_c/Civilization 2` folder.
 - Eject the ISO image. It will prevent the in-game audio from working if it is mounted.
 - Download Intel Indeo 5 Video codec [here](https://download.civforum.de/civ2/iv5setup.exe). There are various other installers for this on the Web, but many seem to have 16-bit setup loaders which will not work here, so use this one.
-- 
+- Once again launch `Contents/Wineskin`.
+- Click Install Software.
+- Browse to `ivsetup.exe`.
+- Select a Custom Install.
+- Deselect all components except `Indeo Video 4 Codec`, noting that you will need to scroll down the list of components to do this. If you do not do this, the installer will get stuck searching for Netscape browser installations to add plugins to:
+  ![Indeo codec installer](images/indeo.png)
