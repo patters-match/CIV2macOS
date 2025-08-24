@@ -24,7 +24,7 @@ This Porting Kit installation provides a working base game, however the in-game 
 - Copy the Civ2UIA launcher and dll to `Contents/drive_c/Civilization 2`.
 - Navigate back up to `Contents` and double-click `Wineskin`.
 - Click Advanced, then amend 'Windows app' to the following, including the quotes:  
-  `"C:\Civilization 2\Civ2UIALauncher.exe" -play -exe "C:\Civilization 2\civ2.exe" -dll "C:\Civilization 2\Civ2UIA.dll"`.
+  `"C:\Civilization 2\Civ2UIALauncher.exe" -play -exe "C:\Civilization 2\civ2.exe" -dll "C:\Civilization 2\Civ2UIA.dll"`
 
 ## In-Game Music
 The original game would play the in-game music tracks from the CD-ROM drive. The UI Additions hack allows music playback from files instead. The audio tracks can be extracted from a bin/cue image of the original disk:
