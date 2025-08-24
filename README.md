@@ -22,7 +22,7 @@ This Porting Kit installation provides a working base game, however the in-game 
 - Hover over Custom Port named Civilization II, click on the gear wheel, Show in Finder.
 - Right-click, Show package contents.
 - Copy the Civ2UIA launcher and dll to `Contents/drive_c/Civilization 2`.
-- Navigate back up to Contents and double-click Wineskin.
+- Navigate back up to `Contents` and double-click `Wineskin`.
 - Click Advanced, then amend 'Windows app' to `"C:\Civilization 2\Civ2UIALauncher.exe" -play -exe "C:\Civilization 2\civ2.exe" -dll "C:\Civilization 2\Civ2UIA.dll"`.
 
 ## In-Game Music
