@@ -28,8 +28,8 @@ This Porting Kit installation provides a working base game, however the in-game 
 
 ## In-Game Music
 The original game would play the in-game music tracks from the CD-ROM drive. The UI Additions hack allows music playback from files instead. The audio tracks can be extracted from a bin/cue image of the original disk:
-- Use [Homebrew package manager](https://formulae.brew.sh/formula/bchunk) to install bchunk: `brew install bchunk`.
-- `bchunk -w ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.bin ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.cue track`.
+- Use [Homebrew package manager](https://formulae.brew.sh/formula/bchunk) to install bchunk: `brew install bchunk`
+- `bchunk -w ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.bin ~/Downloads/Sid_Meier_s_Civilization_II_Multiplayer.cue track`
 - This will result in track01.iso (the CD-ROM data track, for the files), and audio track02 to track12 extracted as correctly named WAV files.
 - In Porting Kit, navigate to Games > Installed.
 - Hover over Custom Port named Civilization II, click on the gear wheel, Show in Finder.
