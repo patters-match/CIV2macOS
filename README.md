@@ -14,7 +14,7 @@ As with my [guide for SimCity 2000](https://github.com/patters-match/SC2KmacOS),
 
 This 'port' uses engine `WS11WineCX21.2.0` and will automatically download the game from the [bestoldgames.net](https://www.bestoldgames.net/) abandonware site. I'm not sure how it achieves this, since my own manual experiments were confounded by the game's InstallShield installer being a 16-bit executable, and not one that can be swapped out easily for a 32-bit version as with SimCity 2000.
 
-This installation will provide a working base game, however the in-game music, the videos, and the additional scenarios are all missing.
+This Porting Kit installation provides a working base game, however the in-game music, the videos, and the additional scenarios are all missing.
 
 ## Fixes and Enhancements
 [Civilization 2 UI Additions](https://github.com/FoxAhead/Civ2-UI-Additions) is one-stop-shop of patches, fixes, and usability enhancements.
