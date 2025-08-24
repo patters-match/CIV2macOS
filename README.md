@@ -48,5 +48,6 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Click Install Software.
 - Browse to `ivsetup.exe`.
 - Select a Custom Install.
-- Deselect all components except `Indeo Video 4 Codec`, noting that you will need to scroll down the list of components to do this. If you do not do this, the installer will get stuck searching for Netscape browser installations to add plugins to:
+- Deselect all components except `Indeo Video 4 Codec`, noting that you will need to scroll down the list of components to do this. If you do not do this, the installer will get stuck searching for Netscape browser installations to add plugins to:  
   ![Indeo codec installer](images/indeo.png)
+- And another thing...
