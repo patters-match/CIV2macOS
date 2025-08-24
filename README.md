@@ -1,4 +1,4 @@
-# How to run Civilization II Multiplayer Gold Edition on macOS in 2025
+# How to run Civilization II on macOS in 2025
 
 ![CIV2 macOS gameplay](images/civ2.png)
 
