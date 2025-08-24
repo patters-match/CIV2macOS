@@ -12,7 +12,7 @@ Civilization II was initially released in 1996 for Windows 3.1 and Windows 95, b
 ## Game Installation
 As with my [guide for SimCity 2000](https://github.com/patters-match/SC2KmacOS), we shall use [Porting Kit](https://www.portingkit.com/download). This offers an existing configuration for Civilization II, though its description does not make clear that this is in fact the Multiplayer Gold Edition. It mentions that it's a DOS game - also inaccurate since it targeted Windows 95.
 
-This 'port' uses engine WS11WineCX21.2.0 and will automatically download the game from the [bestoldgames.net](https://www.bestoldgames.net/) abandonware site. I'm not sure how it achieves this, since my own manual experiments were confounded by the game's InstallShield installer being a 16-bit executable, and not one that can be swapped out easily for a 32-bit version as with SimCity 2000.
+This 'port' uses engine `WS11WineCX21.2.0` and will automatically download the game from the [bestoldgames.net](https://www.bestoldgames.net/) abandonware site. I'm not sure how it achieves this, since my own manual experiments were confounded by the game's InstallShield installer being a 16-bit executable, and not one that can be swapped out easily for a 32-bit version as with SimCity 2000.
 
 This installation will provide a working base game, however the in-game music, the videos, and the additional scenarios are all missing.
 
