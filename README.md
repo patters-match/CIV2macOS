@@ -62,7 +62,7 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Start a new game then click the Game menu > Graphic Options > enable High Council and Wonder Movies.
 
 ## Scenarios
-The bestoldgames.net download which Porting Kit does not include the scenarios bundled with Multiplayer Gold Edition. We cannot run the installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
+The bestoldgames.net download which Porting Kit uses does not include the two expansions of game scenarios bundled with Multiplayer Gold Edition. We cannot run the installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
 - Mount track01.iso once again.
 - Install unshield via Homebrew: `brew install unshield`
 - ```
