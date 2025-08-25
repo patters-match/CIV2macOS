@@ -12,7 +12,7 @@ The objectives for this guide are:
 - All bundled game scenarios
 
 ## Game Installation
-As with my [guide for SimCity 2000](https://github.com/patters-match/SC2KmacOS), we shall use [Porting Kit](https://www.portingkit.com/download). This offers an existing configuration for Civilization II, though its description does not make clear that this is in fact the Multiplayer Gold Edition. It also mentions that it's a DOS game which had led me to suspect it was a DOSBox emulation.
+As with my [guide for SimCity 2000](https://github.com/patters-match/SC2KmacOS), we shall use [Porting Kit](https://www.portingkit.com/download). This offers an existing configuration for Civilization II, though its description does not make clear that this is in fact the Multiplayer Gold Edition. It also mentions that it's a DOS game which had led me to suspect it was a perhaps a DOSBox emulation of the original game release.
 
 This 'port' uses engine `WS11WineCX21.2.0` and will automatically download the game from the [bestoldgames.net](https://www.bestoldgames.net/) abandonware site. I'm not sure how it achieves this, since my own manual install experiments were confounded by the game's installer being a 16-bit executable, and not one that can be swapped out easily for a 32-bit version as with SimCity 2000.
 
