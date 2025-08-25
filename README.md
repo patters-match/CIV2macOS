@@ -4,14 +4,14 @@
 
 Civilization II was originally released in 1996 for Windows 3.1 and Windows 95, making use of the short-lived WinG graphics library.
 
-The Multiplayer Gold Edition, released in 1998, was rewritten as a true Win32 application without this dependency. As a result, it doesn't require emulation and can run reliably using [Wine](https://www.winehq.org/), taking advantage of modern, larger screen resolutions.
+In 1998, the Multiplayer Gold Edition (MGE) was released as a true Win32 application without this dependency. As a result, it doesn’t require emulation and runs reliably under [Wine](https://www.winehq.org/), while also benefiting from modern high-resolution displays.
 
-Objectives for this guide are:
-- To run Civilization II Multiplayer Gold Edition
-- Bug fixes and quality of life enhancements
-- In-game music playback
-- Videos for the High Council and for Wonders of the World
-- All bundled game scenarios
+Objectives of this guide:
+- Run Civilization II Multiplayer Gold Edition
+- Apply bug fixes and quality-of-life enhancements
+- Enable in-game music playback
+- Restore videos for the High Council and Wonders of the World
+- Access all bundled game scenarios
 
 ## Game Installation
 As with my [guide for SimCity 2000](https://github.com/patters-match/SC2KmacOS), we shall use [Porting Kit](https://www.portingkit.com/download). This offers an existing configuration for Civilization II, though its description does not make clear that this is in fact the Multiplayer Gold Edition. It also mentions that it's a DOS game which had led me to suspect it was a perhaps a DOSBox emulation of the original game release.
