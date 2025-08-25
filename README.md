@@ -2,9 +2,9 @@
 
 ![CIV2 macOS gameplay](images/civ2.png)
 
-Civilization II was originally released in 1996 for Windows 3.1 and Windows 95, making use of the short-lived WinG graphics library.
+Civilization II was first released in 1996 for Windows 3.1 and Windows 95, relying on the short-lived WinG graphics library.
 
-In 1998, the Multiplayer Gold Edition (MGE) was released as a true Win32 application without this dependency. As a result, it doesn’t require emulation and runs reliably under [Wine](https://www.winehq.org/), while also benefiting from high-resolution displays on modern macOS systems.
+In 1998, the _Multiplayer Gold Edition_ (MGE) followed as a true Win32 application, removing this dependency. As a result, it doesn't require emulation and runs reliably under [Wine](https://www.winehq.org/), while also benefiting from high-resolution displays on modern macOS systems.
 
 Objectives of this guide:
 - Run Civilization II Multiplayer Gold Edition
