@@ -40,7 +40,7 @@ The original game would play the in-game music tracks from the CD-ROM drive. The
 - Copy the audio tracks into that folder.
 
 ## Videos
-The next challenge is that the videos were not included in the bestoldgames.net download, and they are encoded using a very old Indeo 4 video codec. It should be trivial to add this codec via a 'winetrick', but unfortunately this helper script is outdated in the chosen engine and it does not work.
+The next challenge is that the videos were not included in the _bestoldgames.net_ download, and they are encoded using a very old Indeo 4 video codec. It should be trivial to add this codec via a 'winetrick', but unfortunately this helper script is outdated in the chosen engine and it does not work.
 - Right click on the `track01.iso` you created in the previous section, and select Open with > DiskImageMounter.
 - From that mounted volume, open the Civ2 folder.
 - Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/drive_c/Civilization 2` folder.
@@ -62,7 +62,7 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Start a new game then click the Game menu > Graphic Options > enable High Council and Wonder Movies.
 
 ## Scenarios
-The bestoldgames.net download which Porting Kit uses does not include the two official scenario packs bundled with Multiplayer Gold Edition: Conflicts in Civilization and Fantastic Worlds. We cannot run the CD-ROM installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
+The _bestoldgames.net_ download which Porting Kit uses does not include the two official scenario packs bundled with Multiplayer Gold Edition: Conflicts in Civilization and Fantastic Worlds. We cannot run the CD-ROM installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
 - Mount track01.iso once again.
 - Install unshield via Homebrew: `brew install unshield`
 - ```
