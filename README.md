@@ -69,7 +69,7 @@ The _bestoldgames.net_ download which Porting Kit uses does not include the two 
   cd ~/Downloads
   mkdir MGE
   cd MGE
-  unshield x /Volumes/Civ2\:MGE\ v1.0/data1.cab
+  unshield x "/Volumes/Civ2:MGE v1.0/data1.cab"
   ```
 - From `~/Downloads/MGE/Scenarios_-_English` copy the `SCENARIOS` folder to the app's `Contents/drive_c/Civilization 2` folder.
 - As explained in `Contents/drive_c/Civilization 2/CIV2FANW.TXT` - do not move scenario files from their folder structure.
