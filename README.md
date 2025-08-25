@@ -63,7 +63,7 @@ The next challenge is that the videos were not included in the _bestoldgames.net
 
 ## Scenarios
 The _bestoldgames.net_ download which Porting Kit uses does not include the two official scenario packs bundled with Multiplayer Gold Edition: _Conflicts in Civilization_ and _Fantastic Worlds_. We cannot run the CD-ROM installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
-- Mount track01.iso once again.
+- Mount `track01.iso` once again.
 - Install unshield via Homebrew: `brew install unshield`
 - ```
   cd ~/Downloads
