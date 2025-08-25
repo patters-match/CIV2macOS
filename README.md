@@ -4,9 +4,9 @@
 
 Civilization II was originally released in 1996 for Windows 3.1 and Windows 95, making use of the short-lived WinG graphics library.
 
-The Multiplayer Gold Edition, released in 1998, was rewritten as a true native Win32 application without this dependency. Consequently it doesn't require an emulator and can reliably run using [Wine](https://www.winehq.org/), making good use of larger modern screen resolutions.
+The Multiplayer Gold Edition, released in 1998, was rewritten as a true Win32 application without this dependency. resolutions a result, it doesn’t require emulation and can reliably run using [Wine](https://www.winehq.org/), taking advantage of modern larger screen resolutions.
 
-The objectives for this guide are:
+Objectives for this guide are:
 - To run Civilization II Multiplayer Gold Edition
 - Bug fixes and quality of life enhancements
 - In-game music playback
