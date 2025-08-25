@@ -73,6 +73,7 @@ The bestoldgames.net download which Porting Kit does not include the scenarios b
   ```
 - From `~/Downloads/MGE/Scenarios_-_English` copy the `SCENARIOS` folder to the app's `Contents/drive_c/Civilization 2` folder.
 - As explained in `Contents/drive_c/Civilization 2/CIV2FANW.TXT` - do not move scenario files from their folder structure.
+- Eject the mounted ISO image.
 
 Enjoy! 🏛️
 
