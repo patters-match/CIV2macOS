@@ -40,7 +40,7 @@ The original game would play the in-game music tracks from the CD-ROM drive. The
 - Copy the audio tracks into that folder.
 
 ## Videos
-The next challenge is that the videos were not included in the bestoldgames.net download, and they are encoded in a very old Indeo 4 video codec. It should be trivial to add this codec via a winetrick script, but unfortunately this is outdated in the chosen engine and does not work.
+The next challenge is that the videos were not included in the bestoldgames.net download, and they are encoded using a very old Indeo 4 video codec. It should be trivial to add this codec via a winetrick script, but unfortunately this is outdated in the chosen engine and does not work.
 - Right click on the track01.iso you created in the previous section, and select Open with > DiskImageMounter.
 - From that mounted volume, open the Civ2 folder.
 - Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/drive_c/Civilization 2` folder.
@@ -58,5 +58,21 @@ The next challenge is that the videos were not included in the bestoldgames.net 
 - Click Tools > Command Line (cmd):  
   `reg import "C:\Civilization 2\Vfwfix.reg"`
 - Close the cmd window.
+- If you launch the app now you will see the intro video, confirming working playback.
+- Start a new game then click the Game menu > Graphic Options > enable High Council and Wonder Movies.
 
+## Scenarios
+The bestoldgames.net download which Porting Kit does not include the scenarios bundled with Multiplayer Gold Edition. We cannot run the installer since it's a 16-bit executable, however we can extract them from the CD-ROM data:
+- Mount track01.iso once again.
+- Install unshield via Homebrew: `brew install unshield`
+- ```
+  cd ~/Downloads
+  mkdir MGE
+  cd MGE
+  unshield x /Volumes/Civ2\:MGE\ v1.0/data1.cab
+  ```
+- From `~/Downloads/MGE/Scenarios_-_English` copy the `SCENARIOS` folder to the app's `Contents/drive_c/Civilization 2` folder.
+- As explained in `Contents/drive_c/Civilization 2/CIV2FANW.TXT` - do not move scenario files from their folder structure.
+
+Enjoy! 🏛️
 
