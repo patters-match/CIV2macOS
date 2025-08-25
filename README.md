@@ -19,7 +19,7 @@ This 'port' uses engine `WS11WineCX21.2.0` and will automatically download the g
 This Porting Kit installation provides a working base game, however the in-game music, the videos, and the additional scenarios are all missing.
 
 ## Fixes and Enhancements
-[Civilization 2 UI Additions](https://github.com/FoxAhead/Civ2-UI-Additions) is one-stop-shop of patches, fixes, and usability enhancements.
+[Civilization 2 UI Additions](https://github.com/FoxAhead/Civ2-UI-Additions) is one-stop-shop of patches, fixes, and usability enhancements. In particular it fixes the AI agression bug with this specific version of the game.
 - In Porting Kit, navigate to Games > Installed.
 - Hover over Custom Port named Civilization II, click on the gear wheel, Show in Finder.
 - Right-click, Show package contents.
@@ -74,6 +74,9 @@ The _bestoldgames.net_ download which Porting Kit uses does not include the two 
 - From `~/Downloads/MGE/Scenarios_-_English` copy the `SCENARIOS` folder to the app's `Contents/drive_c/Civilization 2` folder.
 - As explained in `Contents/drive_c/Civilization 2/CIV2FANW.TXT` - do not move scenario files from their folder structure.
 - Eject the mounted ISO image.
+
+## Known Issues
+- Some audio popping may occur, caused by the game's dated sound mixing routines and reliance on early DirectSound APIs in DirectX.
 
 Enjoy! 🏛️
 
