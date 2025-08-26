@@ -47,7 +47,7 @@ The next challenge is that the videos were not included in the _bestoldgames.net
 - From that mounted volume, open the Civ2 folder.
 - Copy the `KINGS` and `VIDEOS` folders into the ported app's `Contents/drive_c/Civilization 2` folder.
 - Eject the ISO image. If it remains mounted it will prevent the in-game audio from working.
-- Download Intel Indeo 5 Video codec [here](https://download.civforum.de/civ2/iv5setup.exe). There are various other installers for this on the Web, but many seem to have 16-bit setup loaders which will not work here, so use this one.
+- Download Intel Indeo 5 Video codec [here](https://download.civforum.de/civ2/iv5setup.exe). There are various installers for this on the Web, but many seem to have 16-bit setup loaders which will not work here, so use this one.
 - Once again launch `Contents/Wineskin`.
 - Click Install Software.
 - Browse to `ivsetup.exe`.
