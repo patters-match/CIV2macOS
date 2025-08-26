@@ -52,7 +52,7 @@ The next challenge is that the videos were not included in the _bestoldgames.net
 - Click Install Software.
 - Browse to `ivsetup.exe`.
 - Select a Custom Install.
-- Deselect all components except `Indeo Video 4 Codec`, noting that you will need to scroll down the list of components to do this. If you do not do this, the installer will get stuck searching for Netscape browser installations to add plugins to:  
+- Deselect all components except `Indeo Video 4 Codec`, taking care to scroll down the full list of components to do this. If you do not do this, the installer will get stuck searching for Netscape browser installations to add plugins to:  
   ![Indeo codec installer](images/indeo.png)
 - When the installation completes, a Windows Explorer window titled Indeo will open. Close this manually or else the installer process will continue to run.
 - Wineskin will then warn that no new executables were detected. Ignore this.
